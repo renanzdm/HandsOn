@@ -6,6 +6,5 @@ class Product {
   final String id;
 
 
-  Product( {this.id,this.category, this.title, this.description, this.price})
-  ;
+  Product( {this.id,this.category, this.title, this.description = 'Sem Categoria', this.price});
 }

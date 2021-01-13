@@ -16,7 +16,6 @@ class ProductModel extends Product {
     map["description"] = description;
     map["price"] = price;
     map["category"] = category;
-    map["id"] = id;
     return map;
   }
 }
